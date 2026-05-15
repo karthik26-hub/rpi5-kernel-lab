@@ -1,0 +1,15 @@
+# 99-act-led.rules - RPi5 Track 1, E2
+# Blink ACT LED when any USB device is plugged in
+#
+# Install:
+#   sudo cp 99-act-led.rules /etc/udev/rules.d/
+#   sudo udevadm control --reload-rules
+#
+# Test: plug/unplug any USB device and watch the ACT LED
+
+ACTION=="add", SUBSYSTEM=="usb", \
+    RUN+="/bin/sh -c 'echo none > /sys/class/leds/ACT/trigger; \
+    echo 1 > /sys/class/leds/ACT/brightness; \
+    sleep 0.5; \
+    echo 0 > /sys/class/leds/ACT/brightness; \
+    echo mmc0 > /sys/class/leds/ACT/trigger'"

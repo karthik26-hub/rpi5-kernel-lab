@@ -1,0 +1,1 @@
+savedcmd_/home/nova/embedded-systems-assignments/rpi5/track1-linux-bsp/e2-gpio-led-overlay/modules.order := {   echo /home/nova/embedded-systems-assignments/rpi5/track1-linux-bsp/e2-gpio-led-overlay/gpio17_led.o; :; } > /home/nova/embedded-systems-assignments/rpi5/track1-linux-bsp/e2-gpio-led-overlay/modules.order

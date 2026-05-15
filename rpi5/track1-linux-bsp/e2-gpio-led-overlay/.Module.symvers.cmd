@@ -1,0 +1,1 @@
+savedcmd_/home/nova/embedded-systems-assignments/rpi5/track1-linux-bsp/e2-gpio-led-overlay/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/nova/embedded-systems-assignments/rpi5/track1-linux-bsp/e2-gpio-led-overlay/Module.symvers -n -T /home/nova/embedded-systems-assignments/rpi5/track1-linux-bsp/e2-gpio-led-overlay/modules.order -i Module.symvers -e 
