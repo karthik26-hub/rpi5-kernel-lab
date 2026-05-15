@@ -1,0 +1,1 @@
+savedcmd_/home/nova/embedded-systems-assignments/rpi5/track1-linux-bsp/e1-hello-world-module/hello.mod := printf '%s\n'   hello.o | awk '!x[$$0]++ { print("/home/nova/embedded-systems-assignments/rpi5/track1-linux-bsp/e1-hello-world-module/"$$0) }' > /home/nova/embedded-systems-assignments/rpi5/track1-linux-bsp/e1-hello-world-module/hello.mod

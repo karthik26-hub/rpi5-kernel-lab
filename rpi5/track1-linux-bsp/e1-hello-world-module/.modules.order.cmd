@@ -1,0 +1,1 @@
+savedcmd_/home/nova/embedded-systems-assignments/rpi5/track1-linux-bsp/e1-hello-world-module/modules.order := {   echo /home/nova/embedded-systems-assignments/rpi5/track1-linux-bsp/e1-hello-world-module/hello.o; :; } > /home/nova/embedded-systems-assignments/rpi5/track1-linux-bsp/e1-hello-world-module/modules.order
