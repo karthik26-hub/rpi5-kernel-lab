@@ -1,0 +1,16 @@
+*.ko
+*.o
+*.mod
+*.mod.c
+*.order
+*.symvers
+Module.symvers
+__pycache__/
+*.pyc
+.venv/
+*.pcap
+*.pcapng
+*.btsnoop
+*.bin
+*.elf
+build/
