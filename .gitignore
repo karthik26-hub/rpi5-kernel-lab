@@ -18,3 +18,4 @@ build/
 .*.cmd
 modules.order
 Module.symvers
+test_chardev
