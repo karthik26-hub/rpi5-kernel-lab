@@ -161,3 +161,15 @@ echo heartbeat | sudo tee /sys/class/leds/<name>/trigger
 ---
 
 *Last updated: E3 complete*
+
+### M3 — systemd Module Autoload
+
+**Error: boot_logger disagrees about version of symbol module_layout**
+Kernel auto-updated from 6.12.75 to 6.18.29 between E3 and M3.
+Old .ko built against 6.12 — vermagic mismatch, modprobe refuses to load.
+Fix: rebuild all modules after any kernel update.
+Rule: always check `uname -r` matches `modinfo <mod> | grep vermagic` before installing.
+
+**Lesson: kernel updates break all out-of-tree modules**
+Production systems pin kernel versions or use DKMS to auto-rebuild modules.
+DKMS (Dynamic Kernel Module Support) is the proper solution for this.
